@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="100%" stop-color="#0B0B0C"/>
+    </linearGradient>
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(242, 239, 232, 0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgGrad)"/>
+  <rect width="800" height="1000" fill="url(#gridPattern)"/>
+  
+  <!-- Framing Hairlines -->
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="rgba(198, 255, 61, 0.3)" stroke-width="1"/>
+  <circle cx="30" cy="30" r="3" fill="#C6FF3D"/>
+  <circle cx="770" cy="30" r="3" fill="#C6FF3D"/>
+  <circle cx="30" cy="970" r="3" fill="#C6FF3D"/>
+  <circle cx="770" cy="970" r="3" fill="#C6FF3D"/>
+
+  <!-- Geometric Avatar Silhouette -->
+  <g transform="translate(400, 440)">
+    <circle cx="0" cy="-70" r="110" fill="#1C1C1F" stroke="#F2EFE8" stroke-width="2" stroke-opacity="0.3"/>
+    <path d="M -180 220 C -180 60, -90 40, 0 40 C 90 40, 180 60, 180 220 Z" fill="#1C1C1F" stroke="#F2EFE8" stroke-width="2" stroke-opacity="0.3"/>
+    <!-- Abstract Accent glasses / detail -->
+    <rect x="-70" y="-85" width="55" height="28" rx="2" fill="none" stroke="#C6FF3D" stroke-width="3"/>
+    <rect x="15" y="-85" width="55" height="28" rx="2" fill="none" stroke="#C6FF3D" stroke-width="3"/>
+    <line x1="-15" y1="-71" x2="15" y2="-71" stroke="#C6FF3D" stroke-width="3"/>
+  </g>
+
+  <!-- Typography metadata -->
+  <text x="60" y="80" font-family="monospace" font-size="14" fill="#8E8D8A" letter-spacing="3">FIG.01 — REDOMAS BAECY HARDIANATHAN</text>
+  <text x="60" y="105" font-family="monospace" font-size="12" fill="#C6FF3D" letter-spacing="2">WEB DEVELOPER • DISKOMINFO SURAKARTA</text>
+  
+  <text x="60" y="880" font-family="sans-serif" font-weight="900" font-size="48" fill="#F2EFE8" letter-spacing="-1">REDO</text>
+  <text x="60" y="915" font-family="monospace" font-size="12" fill="#8E8D8A" letter-spacing="2">7°34'00"S 110°49'44"E • AMIKOM YOGYAKARTA</text>
+</svg>

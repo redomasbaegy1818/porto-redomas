@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ulasGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="100%" stop-color="#0E0F10"/>
+    </linearGradient>
+    <pattern id="dotPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="rgba(242, 239, 232, 0.08)"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#ulasGrad)"/>
+  <rect width="1200" height="675" fill="url(#dotPattern)"/>
+  
+  <!-- Outer Frame -->
+  <rect x="40" y="40" width="1120" height="595" fill="none" stroke="rgba(242, 239, 232, 0.15)" stroke-width="1"/>
+  
+  <!-- Browser Chrome Bar -->
+  <rect x="40" y="40" width="1120" height="50" fill="#1C1C1F"/>
+  <circle cx="70" cy="65" r="6" fill="#FF5F56"/>
+  <circle cx="95" cy="65" r="6" fill="#FFBD2E"/>
+  <circle cx="120" cy="65" r="6" fill="#27C93F"/>
+  <rect x="160" y="52" width="460" height="26" rx="4" fill="#0B0B0C"/>
+  <text x="180" y="69" font-family="monospace" font-size="11" fill="#8E8D8A">ulas.surakarta.go.id/portal-aduan</text>
+
+  <!-- Content Representation -->
+  <g transform="translate(90, 140)">
+    <rect x="0" y="0" width="1020" height="440" fill="#0B0B0C" stroke="rgba(198, 255, 61, 0.2)" stroke-width="1"/>
+    
+    <!-- Header simulation -->
+    <text x="40" y="60" font-family="sans-serif" font-weight="900" font-size="32" fill="#F2EFE8" letter-spacing="-1">ULAS</text>
+    <text x="140" y="58" font-family="monospace" font-size="12" fill="#C6FF3D" letter-spacing="2">UNIT LAYANAN ADUAN SURAKARTA</text>
+    <line x1="40" y1="85" x2="980" y2="85" stroke="rgba(242, 239, 232, 0.1)" stroke-width="1"/>
+
+    <!-- Map & Feed UI Mockup -->
+    <rect x="40" y="115" width="560" height="280" fill="#141416" stroke="rgba(242, 239, 232, 0.1)" stroke-width="1"/>
+    <!-- Simulated Map Vector Lines -->
+    <path d="M 80 150 L 260 220 L 440 180 L 520 310" stroke="#C6FF3D" stroke-width="2" fill="none" opacity="0.6"/>
+    <circle cx="260" cy="220" r="7" fill="#C6FF3D"/>
+    <circle cx="440" cy="180" r="5" fill="#FF5F56"/>
+    <text x="60" y="145" font-family="monospace" font-size="10" fill="#8E8D8A">PETA SEBARAN ADUAN KOTA SURAKARTA</text>
+
+    <!-- Side Report Feed -->
+    <rect x="630" y="115" width="350" height="85" fill="#1C1C1F"/>
+    <text x="650" y="145" font-family="sans-serif" font-weight="bold" font-size="13" fill="#F2EFE8">Aduan Infrastruktur #2024-104</text>
+    <text x="650" y="170" font-family="monospace" font-size="11" fill="#C6FF3D">STATUS: DITANGGAPI OPD</text>
+
+    <rect x="630" y="215" width="350" height="85" fill="#1C1C1F"/>
+    <text x="650" y="245" font-family="sans-serif" font-weight="bold" font-size="13" fill="#F2EFE8">Laporan Lampu Jalan Jebres #2024-105</text>
+    <text x="650" y="270" font-family="monospace" font-size="11" fill="#27C93F">STATUS: SELESAI DIKERJAKAN</text>
+
+    <rect x="630" y="315" width="350" height="80" fill="#1C1C1F"/>
+    <text x="650" y="345" font-family="sans-serif" font-weight="bold" font-size="13" fill="#F2EFE8">Aduan Fasilitas Publik Pasar Gede</text>
+    <text x="650" y="370" font-family="monospace" font-size="11" fill="#FFBD2E">STATUS: VERIFIKASI DISKOMINFO</text>
+  </g>
+</svg>
